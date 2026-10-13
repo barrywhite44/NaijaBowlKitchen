@@ -1,0 +1,7 @@
+/* Shared typography for all pages */
+body, button, input, select, textarea {
+    font-family: "Nunito Sans", sans-serif;
+}
+h1, h2, h3, .brand {
+    font-family: "DM Serif Display", Georgia, serif;
+}
