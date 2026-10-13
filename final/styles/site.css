@@ -378,9 +378,9 @@ dd {
 
 @media(prefers-reduced-motion:reduce) {
   *,*::before,*::after {
-  scroll-behavior:auto!important;
-  animation:none!important;
-  transition:none!important}
+  scroll-behavior:auto;
+  animation:none;
+  transition:none}
 }
 
 
@@ -409,10 +409,6 @@ dd {
     align-items: stretch;
 
 
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    align-items: stretch;
-    gap: 1.5rem;
 }
 
 .soup-card {
@@ -480,19 +476,9 @@ dd {
     #menu-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
-
-
-    #menu-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
 }
 
 @media (max-width: 600px) {
-    #menu-grid {
-        grid-template-columns: minmax(0, 1fr);
-    }
-
-
     #menu-grid {
         grid-template-columns: minmax(0, 1fr);
     }
