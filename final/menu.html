@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Soup Menu | Naija Bowl Kitchen
+  </title>
+  <meta content="Browse fifteen Nigerian soups by type, region, price, and preparation time." name="description"/>
+  <meta content="Emmanuel Oluwamayowa Nasir" name="author"/>
+  <meta content="Soup Menu | Naija Bowl Kitchen" property="og:title"/>
+  <meta content="Browse fifteen Nigerian soups by type, region, price, and preparation time." property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <link href="images/favicon.svg" rel="icon" type="image/svg+xml"/>
+  <link href="styles/site.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   Skip to main content
+  </a>
+  <header>
+   <div class="wrap">
+    <a class="brand" href="index.html">
+     <svg aria-label="Naija Bowl Kitchen logo" role="img" viewbox="0 0 48 48">
+      <circle cx="24" cy="24" fill="var(--primary)" r="23">
+      </circle>
+      <path d="M9 25h30a15 15 0 0 1-30 0z" fill="var(--on-primary)">
+      </path>
+      <path d="M17 18c-2-3 2-4 0-7M24 18c-2-3 2-4 0-7M31 18c-2-3 2-4 0-7" fill="none" stroke="var(--on-primary)" stroke-linecap="round" stroke-width="2">
+      </path>
+     </svg>
+     Naija Bowl Kitchen
+    </a>
+    <button aria-controls="site-nav" aria-expanded="false" aria-label="Open navigation menu" class="menu-toggle" id="menu-toggle">
+     ☰
+    </button>
+    <nav aria-label="Main navigation" id="site-nav">
+     <ul>
+      <li>
+       <a href="index.html">
+        Home
+       </a>
+      </li>
+      <li>
+       <a aria-current="page" href="menu.html">
+        Menu
+       </a>
+      </li>
+      <li>
+       <a href="order.html">
+        Order
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="wrap" id="main">
+   <h1>
+    Our Soup Menu
+   </h1>
+   <p>
+    Explore 15 Nigerian soup recipes, compare their origins and preparation times, and save your favorites.
+   </p>
+   <div class="filters">
+    <div>
+     <label for="cat">
+      Type
+     </label>
+     <select id="cat">
+      <option value="all">
+       All soups
+      </option>
+      <option>
+       Leafy
+      </option>
+      <option>
+       Thickened
+      </option>
+      <option>
+       Peppery
+      </option>
+     </select>
+    </div>
+    <div class="check">
+     <input id="saved-only" type="checkbox"/>
+     <label for="saved-only">
+      Saved soups only
+     </label>
+    </div>
+    <p aria-live="polite" id="count" role="status">
+    </p>
+   </div>
+   <div class="grid" id="menu-grid">
+    <p>
+     Loading the menu...
+    </p>
+   </div>
+   <dialog aria-labelledby="dlg-title" id="dlg">
+    <h2 id="dlg-title">
+    </h2>
+    <p id="dlg-body">
+    </p>
+    <ul id="dlg-facts">
+    </ul>
+    <div class="hero-actions">
+     <button class="btn" id="dlg-order" type="button">
+      Order this soup
+     </button>
+     <button class="btn ghost" id="dlg-close" type="button">
+      Close
+     </button>
+    </div>
+   </dialog>
+  </main>
+  <footer>
+   <div class="wrap">
+    <div class="foot">
+     <div>
+      <h3>
+       Contact
+      </h3>
+      <p>
+       Naija Bowl Kitchen is a student demonstration website. Orders are not sent to a restaurant.
+      </p>
+     </div>
+     <div>
+      <h3>
+       Explore
+      </h3>
+      <p>
+       <a href="attributions.html">
+        Attributions
+       </a>
+      </p>
+      <p>
+       <a href="menu.html">
+        Browse soups
+       </a>
+      </p>
+     </div>
+     <div>
+      <h3>
+       Project demonstration
+      </h3>
+      <p>
+       Video recording link will be added after filming
+      </p>
+     </div>
+    </div>
+    <div class="foot-bottom">
+     <p>
+      &copy;
+      <span id="year">
+       2026
+      </span>
+      Naija Bowl Kitchen | WDD 231 Student Project
+     </p>
+    </div>
+   </div>
+  </footer>
+  <script src="scripts/menu.js" type="module">
+  </script>
+ </body>
+</html>
+

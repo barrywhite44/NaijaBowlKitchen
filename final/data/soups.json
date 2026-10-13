@@ -1,0 +1,169 @@
+{
+  "soups": [
+    {
+      "id": 1,
+      "name": "Egusi Soup",
+      "region": "Pan-Nigerian",
+      "cat": "Thickened",
+      "price": 4500,
+      "spice": 2,
+      "mins": 60,
+      "desc": "A beloved Nigerian classic made with ground melon seeds, palm oil, leafy vegetables, and assorted meats. Its rich, hearty texture pairs beautifully with pounded yam, eba, or fufu.",
+      "image": "images/hero-food.webp"
+    },
+    {
+      "id": 2,
+      "name": "Efo Riro",
+      "region": "Yoruba",
+      "cat": "Leafy",
+      "price": 4200,
+      "spice": 2,
+      "mins": 45,
+      "desc": "A flavorful Yoruba vegetable stew prepared with leafy greens, red peppers, onions, locust beans, and smoked fish. It offers a satisfying balance of savory flavor and gentle heat.",
+      "image": "images/efo-riro.webp"
+    },
+    {
+      "id": 3,
+      "name": "Ogbono Soup",
+      "region": "Igbo",
+      "cat": "Thickened",
+      "price": 4500,
+      "spice": 2,
+      "mins": 50,
+      "desc": "This traditional draw soup gets its distinctive smooth, stretchy texture from ground wild mango seeds. Slow-cooked with stock, spices, and proteins, it is a comforting match for Nigerian swallows.",
+      "image": "images/ogbono-soup.webp"
+    },
+    {
+      "id": 4,
+      "name": "Okra Soup",
+      "region": "Pan-Nigerian",
+      "cat": "Thickened",
+      "price": 3800,
+      "spice": 2,
+      "mins": 35,
+      "desc": "Fresh chopped okra gives this soup its characteristic silky texture. Combined with seafood, beef, seasonings, and aromatic stock, it makes a light but deeply satisfying meal.",
+      "image": "images/okra-soup.webp"
+    },
+    {
+      "id": 5,
+      "name": "Banga Soup",
+      "region": "Niger Delta",
+      "cat": "Thickened",
+      "price": 5000,
+      "spice": 2,
+      "mins": 70,
+      "desc": "A fragrant Niger Delta favorite made from palm fruit extract and a distinctive blend of traditional spices. Fish and meat enrich the broth, creating a bold, warming dish.",
+      "image": "images/banga.webp"
+    },
+    {
+      "id": 6,
+      "name": "Edikang Ikong",
+      "region": "Efik",
+      "cat": "Leafy",
+      "price": 5200,
+      "spice": 1,
+      "mins": 55,
+      "desc": "A vegetable-rich specialty associated with Efik cuisine, combining fluted pumpkin leaves and waterleaf with crayfish, stockfish, and other flavorful ingredients.",
+      "image": "images/edikang-ikong.webp"
+    },
+    {
+      "id": 7,
+      "name": "Afang Soup",
+      "region": "Efik / Ibibio",
+      "cat": "Leafy",
+      "price": 5200,
+      "spice": 1,
+      "mins": 55,
+      "desc": "A cherished Efik and Ibibio dish featuring finely sliced afang leaves and tender waterleaf. Crayfish and smoked fish lend depth to this nourishing, savory soup.",
+      "image": "images/afang.webp"
+    },
+    {
+      "id": 8,
+      "name": "Oha Soup",
+      "region": "Igbo",
+      "cat": "Leafy",
+      "price": 4800,
+      "spice": 1,
+      "mins": 60,
+      "desc": "A comforting southeastern Nigerian soup built around tender oha leaves and a cocoyam-thickened broth. Its delicate herbal flavor works especially well with fufu or pounded yam.",
+      "image": "images/oha-soup.webp"
+    },
+    {
+      "id": 9,
+      "name": "Ofe Nsala",
+      "region": "Igbo",
+      "cat": "Peppery",
+      "price": 5000,
+      "spice": 3,
+      "mins": 50,
+      "desc": "Often called white soup, this Igbo specialty uses a light, aromatic broth with fish, yam thickener, and distinctive local herbs. It is warming, peppery, and full of flavor.",
+      "image": "images/ofe-nsala.webp"
+    },
+    {
+      "id": 10,
+      "name": "Bitterleaf Soup",
+      "region": "Igbo",
+      "cat": "Leafy",
+      "price": 4600,
+      "spice": 1,
+      "mins": 60,
+      "desc": "Carefully washed bitterleaf adds a pleasantly earthy note to a rich, thickened broth. Cocoyam, palm oil, and traditional seasonings bring the ingredients together.",
+      "image": "images/bitterleaf-soup.webp"
+    },
+    {
+      "id": 11,
+      "name": "Goat Meat Pepper Soup",
+      "region": "Pan-Nigerian",
+      "cat": "Peppery",
+      "price": 4000,
+      "spice": 3,
+      "mins": 40,
+      "desc": "Tender goat meat is simmered in a fragrant, peppery broth with traditional spices. This lively soup is enjoyed for its aromatic warmth and bold seasoning.",
+      "image": "images/pepper-soup.webp"
+    },
+    {
+      "id": 12,
+      "name": "Catfish Pepper Soup",
+      "region": "Pan-Nigerian",
+      "cat": "Peppery",
+      "price": 4500,
+      "spice": 3,
+      "mins": 35,
+      "desc": "Fresh catfish is gently cooked in a fragrant broth seasoned with peppers and traditional pepper-soup spices. The result is a light, warming soup with a distinctive savory taste.",
+      "image": "images/fisherman-soup.webp"
+    },
+    {
+      "id": 13,
+      "name": "Ewedu Soup",
+      "region": "Yoruba",
+      "cat": "Leafy",
+      "price": 2500,
+      "spice": 1,
+      "mins": 25,
+      "desc": "A smooth Yoruba soup made from jute leaves, valued for its light, silky texture. It is commonly served alongside gbegiri and stew with amala.",
+      "image": "images/ewedu-soup.webp"
+    },
+    {
+      "id": 14,
+      "name": "Gbegiri",
+      "region": "Yoruba",
+      "cat": "Thickened",
+      "price": 3000,
+      "spice": 1,
+      "mins": 45,
+      "desc": "A creamy Yoruba bean soup made from cooked and blended beans, seasoned for a smooth, savory finish. It is especially popular alongside ewedu and amala.",
+      "image": "images/gberiri.webp"
+    },
+    {
+      "id": 15,
+      "name": "Fisherman Soup",
+      "region": "Niger Delta",
+      "cat": "Peppery",
+      "price": 6500,
+      "spice": 3,
+      "mins": 60,
+      "desc": "Inspired by the seafood traditions of Nigeria's coastal communities, this generous soup brings together fish, prawns, crab, and aromatic spices in a flavorful broth.",
+      "image": "images/fisherman-soup.webp"
+    }
+  ]
+}

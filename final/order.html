@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Order Soups | Naija Bowl Kitchen
+  </title>
+  <meta content="Preview an order for traditional Nigerian soups with a simple accessible order form." name="description"/>
+  <meta content="Emmanuel Oluwamayowa Nasir" name="author"/>
+  <meta content="Order Soups | Naija Bowl Kitchen" property="og:title"/>
+  <meta content="Preview an order for traditional Nigerian soups with a simple accessible order form." property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <link href="images/favicon.svg" rel="icon" type="image/svg+xml"/>
+  <link href="styles/site.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   Skip to main content
+  </a>
+  <header>
+   <div class="wrap">
+    <a class="brand" href="index.html">
+     <svg aria-label="Naija Bowl Kitchen logo" role="img" viewbox="0 0 48 48">
+      <circle cx="24" cy="24" fill="var(--primary)" r="23">
+      </circle>
+      <path d="M9 25h30a15 15 0 0 1-30 0z" fill="var(--on-primary)">
+      </path>
+      <path d="M17 18c-2-3 2-4 0-7M24 18c-2-3 2-4 0-7M31 18c-2-3 2-4 0-7" fill="none" stroke="var(--on-primary)" stroke-linecap="round" stroke-width="2">
+      </path>
+     </svg>
+     Naija Bowl Kitchen
+    </a>
+    <button aria-controls="site-nav" aria-expanded="false" aria-label="Open navigation menu" class="menu-toggle" id="menu-toggle">
+     ☰
+    </button>
+    <nav aria-label="Main navigation" id="site-nav">
+     <ul>
+      <li>
+       <a href="index.html">
+        Home
+       </a>
+      </li>
+      <li>
+       <a href="menu.html">
+        Menu
+       </a>
+      </li>
+      <li>
+       <a aria-current="page" href="order.html">
+        Order
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="wrap" id="main">
+   <h1>
+    Place Your Order
+   </h1>
+   <p>
+    This is a demonstration form. No real purchase or delivery will take place.
+   </p>
+   <form action="thanks.html" class="form-grid" id="order-form" method="get">
+    <div>
+     <label for="name">
+      Full name
+     </label>
+     <input autocomplete="name" id="name" maxlength="80" name="name" required=""/>
+    </div>
+    <div>
+     <label for="email">
+      Email
+     </label>
+     <input autocomplete="email" id="email" name="email" required="" type="email"/>
+    </div>
+    <div>
+     <label for="phone">
+      Phone
+     </label>
+     <input autocomplete="tel" id="phone" name="phone" pattern="[0-9+ ]{10,16}" required="" title="Enter 10 to 16 digits, spaces, or plus signs" type="tel"/>
+    </div>
+    <div>
+     <label for="soup">
+      Soup
+     </label>
+     <select id="soup" name="soup" required="">
+      <option value="">
+       Choose a soup
+      </option>
+     </select>
+    </div>
+    <div>
+     <label for="qty">
+      Bowls
+     </label>
+     <input id="qty" max="20" min="1" name="qty" required="" type="number" value="1"/>
+    </div>
+    <div>
+     <label for="date">
+      Preferred delivery date
+     </label>
+     <input id="date" name="date" required="" type="date"/>
+    </div>
+    <div>
+     <label for="notes">
+      Notes (optional)
+     </label>
+     <textarea id="notes" maxlength="300" name="notes" rows="3"></textarea>
+    </div>
+    <p aria-live="polite" class="total" id="total">
+     Total: ₦0
+    </p>
+    <p aria-live="polite" id="form-status" role="status">
+    </p>
+    <button class="btn" type="submit">
+     Preview Order
+    </button>
+   </form>
+  </main>
+  <footer>
+   <div class="wrap">
+    <div class="foot">
+     <div>
+      <h3>
+       Contact
+      </h3>
+      <p>
+       Naija Bowl Kitchen is a student demonstration website. Orders are not sent to a restaurant.
+      </p>
+     </div>
+     <div>
+      <h3>
+       Explore
+      </h3>
+      <p>
+       <a href="attributions.html">
+        Attributions
+       </a>
+      </p>
+      <p>
+       <a href="menu.html">
+        Browse soups
+       </a>
+      </p>
+     </div>
+     <div>
+      <h3>
+       Project demonstration
+      </h3>
+      <p>
+       Video recording link will be added after filming
+      </p>
+     </div>
+    </div>
+    <div class="foot-bottom">
+     <p>
+      &copy;
+      <span id="year">
+       2026
+      </span>
+      Naija Bowl Kitchen | WDD 231 Student Project
+     </p>
+    </div>
+   </div>
+  </footer>
+  <script src="scripts/order.js" type="module">
+  </script>
+ </body>
+</html>
+
